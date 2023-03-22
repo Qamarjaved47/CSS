@@ -1,0 +1,81 @@
+*{
+    background-color: gold;
+}
+h2,h3,h4,h5,h6,p{
+    background-color: blue;
+    color: black;
+    font-family: cursive;
+}
+h1{
+    color: red;
+    font-size: 300%;
+    background-image: url("./images\ \(2\).jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    text-indent:2%;
+}
+.intro{
+    background-color: black;
+    padding: 10%;
+
+}
+.p2{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: overline;
+    border: 10px solid red;
+
+}
+.mar{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+b:hover{
+    color: red;
+    background-color: black;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 8s;
+}
+b{
+    font-size: 40px;
+}
+li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 100%;
+}
+li.come:hover{
+   background-color: red;
+   color: black;
+   font-size: 20px;
+   font-style: italic;
+   width: 50px;
+   height: 50px;
+   transition: 1s;
+   border-radius: 10%;
+}
+.overflow{
+    background-color: greenyellow;
+    color: #fff;
+    width: 50%;
+    height: 200px;
+    overflow-x: scroll;
+}
+.boder{
+    border: 10px;
+    border-style: solid double dotted ridge;
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+    overflow: hidden;
+}
+.amd{
+    font-size: large;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+.page{
+    border: 1px solid black;
+}
